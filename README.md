@@ -3,13 +3,15 @@
 - [@SteveKoutsodontis](https://github.com/SteveKoutsodontis)
 
 ## Description
-* Users of this application are able to Create a new note entering a title and notes attached. 
+* Note Taker has an easy interface that anyone can use to write down reminders and keeps them available for a later time.
 
-* Once 'node index.js' is run, the user will be asked for information about one manager and then an option number of engineers and/or interns.
+* At the begining of the application the user is presented with a button that will take them to the notes page.
 
-* If a field is incorrectly filled out, the application asks the user to re-enter it.
+* When the users arrives on the notes page they can then type in a Title and Notes. Then they can press the Save icon and that will put the saved Note to the left column.
 
-* The applications will generate HTML for a clean looking webpage displaying all the information for each team member and will also tell you where the output file is located when all the team members have been entered.
+* The saved notes when selected will appear in the main window. Also the user has the option of deleting the previous notes by clicking the garbage can icon next to the selected Note. 
+
+* If the user closes the application and returns to the page at a later time the saved Notes will still be there.
 
 ## Built With 
 
@@ -19,6 +21,7 @@
 * Node.JS
 * Express.JS
 * Fs 
+* Heroku
 
 
 ## Installation Instructions
@@ -41,10 +44,10 @@ To run this application, open a console in the root directory and enter: node in
 ## Screen Shots
 
 ![Screenshot]()
+![Screenshot]()
+![Screenshot]()
 
-# Demo
 
-[Note-Taker Demo]()
 ### License: 
  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

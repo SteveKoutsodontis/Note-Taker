@@ -26,11 +26,17 @@ router.post("/notes", (req, res) => {
     return res.json(db);
 });
 
-// router.delete('/notes/:id', (req, res) => {
-//     store 
-//         .removeNote(req.params.id)
-//         .then(() => res.json({ok: true }))
-//         .catch(err => res.status(500).json(err))
-// });
+router.delete('/notes/:id', (req, res) => {
+
+    for(i=0; i< db.length; i++){
+        if(idChosen == db[i].id){
+            db.splice(i,1)
+        }
+    }
+    fs.writeFile("./db/db.json", JSON.stringify(db), err => {
+        if (err) throw err;
+    })
+    return res.json(db)
+});
 
 module.exports = router

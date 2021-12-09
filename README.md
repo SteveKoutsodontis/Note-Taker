@@ -36,16 +36,16 @@ If you want to edit applcation you must have a Github account, download Visual S
 
 Clone the Github project.
 
-To install packages dependencies in package.json, open a console in the correct directory and enter: npm install
+To install packages dependencies in package.json, open a console in the correct directory and enter: npm i
 
 ## Usage 
-To run this application, open a console in the root directory and enter: node index
+Click link to run application: [Deployed Note Taker](https://note-taker-smk.herokuapp.com/)
 
 ## Screen Shots
 
-![Screenshot]()
-![Screenshot]()
-![Screenshot]()
+![Screenshot](./public/assets/images/note-taker1.jpg)
+![Screenshot](./public/assets/images/note-taker2.jpg)
+![Screenshot](./public/assets/images/note-taker3.jpg)
 
 
 ### License: 
